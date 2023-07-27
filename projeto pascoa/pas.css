@@ -1,0 +1,63 @@
+#titulo{
+    background-color: purple;
+    color: #E8E8E8;
+    text-align: center;
+}
+#origem{
+    color: #4F4F4F;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#semana{
+    background-color: purple;
+    color: #E8E8E8;
+    text-align: center;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#semanatexto{
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #4F4F4F;
+}
+#quando{
+    background-color: purple;
+    color: #E8E8E8;
+    text-align: center;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#quandotexto{
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #4F4F4F;
+}
+#menu{
+	font-size:20pt;
+    text-align:center;
+    height:50px;
+}
+#menu li{
+	list-style-type:none; /*retira os marcadores */
+	display:inline; /*deixa os links na horizontal*/
+}
+#menu a{
+	text-decoration:none; /*retira o sublinhado do link */
+	color: black; /*troca a cor da letra */
+    font-family:calibri; /*troca o tipo da letra */
+    line-height:50px; /*centraliza verticalmente os links */
+	padding:12px 12px 12px 12px; /*padding= preenchimento */
+	margin:20px;/*margin right ,margin left (esquerda e direita*/
+	border-radius:10px; /*deixa a borda redonda*/
+}
+#menu a:hover{ 
+    /*quando passar o mouse em cima do link ele muda de cor */
+	border:2px solid white; /*insere a borda no link*/
+	background-color:black;
+	color:white;
+}
